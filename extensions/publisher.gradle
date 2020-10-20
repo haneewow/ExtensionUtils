@@ -7,7 +7,7 @@ ext {
     // URL для Snapshot репозитория
     repositorySnapshotUrl = "http://nexus2.is74.ru/repository/snapshots/"
     // Логин пользователя, от которого будет производиться загрузка
-    contributorUserName = "taranenk16"
+    contributorUserName = "admin"
     // Пароль пользователя, от которого будет производиться загрузка
     contributorPassword = "47099e18-a613-478e-87aa-565f3f6bd1c1"
     // Группа для артефакта
