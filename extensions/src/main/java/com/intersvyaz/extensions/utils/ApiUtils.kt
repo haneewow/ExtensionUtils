@@ -1,4 +1,4 @@
-package com.intersvyaz.extensions.util
+package com.intersvyaz.extensions.utils
 
 import com.intersvyaz.extensions.R
 import org.json.JSONArray

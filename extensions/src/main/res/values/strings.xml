@@ -3,4 +3,6 @@
     <string name="default_error_unknown">Ошибка. Проверьте интернет-подключение</string>
     <string name="default_update">Обновить</string>
     <string name="button_ok">ОК</string>
+    <string name="intent_invocation_error">При обработке действия произошла ошибка</string>
+    <string name="intent_no_apps_to_handle"><![CDATA[>Не удалось запустить приложение, требуемое для выполнения этого действия!]]></string>
 </resources>

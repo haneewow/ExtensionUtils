@@ -9,6 +9,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
+import com.intersvyaz.extensions.utils.UiUtils.hideKeyboard
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.launch
 
@@ -89,6 +90,9 @@ fun Fragment.showAlert(title: String? = null,
     }
 }
 
+fun Fragment.hideKeyboard() = view?.let {
+   hideKeyboard(requireActivity(), it)
+}
 
 fun Fragment.clearFocus() = view?.run {
     clearFocus()

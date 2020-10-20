@@ -13,7 +13,6 @@ fun String.toSpannableString() = SpannableString(this).apply {
 
 fun String.parseToDate(pattern: String, language: String = "ru"): Date = SimpleDateFormat(pattern, Locale(language)).parse(this)
 
-
 fun String.apiStringToDate() = SimpleDateFormat("yyyy-MM-dd").parse(this)!!
 
 fun String.apiTimeStampToDate() = SimpleDateFormat("yyyy-MM-dd kk:mm").parse(this)!!

@@ -3,8 +3,8 @@ package com.intersvyaz.extensions
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.gson.JsonSyntaxException
-import com.intersvyaz.extensions.util.ApiUtils.getJsonErrorMessage
-import com.intersvyaz.extensions.util.ApiUtils.getResponse
+import com.intersvyaz.extensions.utils.ApiUtils.getJsonErrorMessage
+import com.intersvyaz.extensions.utils.ApiUtils.getResponse
 import com.intersvyaz.lk.vo.Resource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
