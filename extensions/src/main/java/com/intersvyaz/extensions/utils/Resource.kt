@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.intersvyaz.lk.vo
+package com.intersvyaz.extensions.utils
 
-import com.intersvyaz.lk.vo.Status.ERROR
-import com.intersvyaz.lk.vo.Status.LOADING
-import com.intersvyaz.lk.vo.Status.SUCCESS
+import com.intersvyaz.extensions.utils.Status.ERROR
+import com.intersvyaz.extensions.utils.Status.LOADING
+import com.intersvyaz.extensions.utils.Status.SUCCESS
 
 /**
  * A generic class that holds a value with its loading status.

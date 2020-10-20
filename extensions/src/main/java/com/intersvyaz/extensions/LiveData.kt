@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import com.google.gson.JsonSyntaxException
 import com.intersvyaz.extensions.utils.ApiUtils.getJsonErrorMessage
 import com.intersvyaz.extensions.utils.ApiUtils.getResponse
-import com.intersvyaz.lk.vo.Resource
+import com.intersvyaz.extensions.utils.Resource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main

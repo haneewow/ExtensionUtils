@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.intersvyaz.lk.vo
+package com.intersvyaz.extensions.utils
 
 /**
  * Status of a resource that is provided to the UI.
