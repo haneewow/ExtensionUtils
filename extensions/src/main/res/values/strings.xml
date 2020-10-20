@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_error_unknown">Ошибка. Проверьте интернет-подключение</string>
+    <string name="default_update">Обновить</string>
+    <string name="button_ok">ОК</string>
+</resources>
